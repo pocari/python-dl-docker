@@ -7,5 +7,7 @@ RUN pip install \
 	numpy \
 	matplotlib
 
+ADD ./resources/ipython_config.py /root/.ipython/profile_default/
+
 CMD ["ipython"]
 
