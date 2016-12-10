@@ -4,8 +4,8 @@ WORKDIR /var/python
 
 RUN pip install \
         ipython \
-	numpy \
-	matplotlib
+        numpy \
+        matplotlib
 
 ADD ./resources/ipython_config.py /root/.ipython/profile_default/
 
