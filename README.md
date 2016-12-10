@@ -44,7 +44,9 @@ docker run --rm -it -v $(pwd):/var/python python-dl bash
 python sample/sample.py
 ```
 
-を実行しmac側下記のグラフが出れば正常にインストール終了。
+を実行しmac側で下記のグラフが出れば正常にインストール終了。
+
+<img width="300" alt="2016-12-10 13 56 37" src="https://cloud.githubusercontent.com/assets/1496543/21071334/8c3c70e4-bee0-11e6-8de6-09c9e2e58695.png">
 
 - 注意事項
   - PC起動後初回起動時はグラフ描画時にXQuartzの起動も行われるので多少時間がかかる
