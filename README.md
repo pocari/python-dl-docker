@@ -49,7 +49,7 @@ docker run --rm -it -v $(pwd):/var/python python-dl bash
 
 コンテナ内で
 ```
-python sample/sample.py
+python samples/sample01.py
 ```
 
 を実行しmac側で下記のグラフが出れば正常にインストール終了。
