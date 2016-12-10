@@ -12,6 +12,15 @@ brew install caskroom/cask/brew-cask
 brew cask install xquartz
 ```
 
+## 書籍のサンプルを取得
+gitのsubmoduleとして取得しているので更新する
+
+```
+git submodule update -i
+```
+
+これで、`samples/book-sample` 以下に書籍のサンプルコードがcloneされる。
+
 ## build
 
 ```
@@ -39,7 +48,6 @@ docker run --rm -it -v $(pwd):/var/python python-dl bash
 ## sample
 
 コンテナ内で
-
 ```
 python sample/sample.py
 ```
